@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .body{
+    background: url(bg.jpg);
+    background-size: cover;
+}
+.nav{
+    
+    background-color: rgb(132, 157, 227,0.5);
+    height: 3rem;
+
+    
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+        
+}
+
+
+.form
+{
+    background-color: rgb(110, 149, 222,0.5);
+    border: solid rgba(17, 16, 22,0.6);
+    width: 25rem;
+    height: 25rem;
+    margin-top: 10rem;
+    margin-left: 35rem;
+    border-radius: 3rem;
+}
+.user{
+    
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+      color:  black;    
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.pass{
+    margin-left: 0.9rem;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    color: aqua;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: rgb(4, 13, 13,0.4);
+    border-color: aqua;
+
+}
+.radio{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.btn :hover{
+    color: blueviolet;
+}
+.gender{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.email{
+    margin-left: 1.9rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.age{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.login
+{
+    height: 3rem; 
+    background-color:rgba(67, 119, 217, 0.5) ;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    
+    
+}
+.h2{
+    margin-left: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0rem;
+
+}
+.check{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.footer{
+background-color: rgb(132, 157, 227,0.5);
+    margin-top: 6.5rem;
+    height: 3.5rem;
+    
+    
+}
+.fh2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35rem;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+    <title>Document</title>
+</head>
+
+<body class="body">
+
+    <div class="nav">
+        <ul class="ul1">
+            <li>contact </li>
+            <li>career</li>
+            <li>about</li>
+            <li>info</li>
+            <li>home</li>
+        </ul>
+    </div>
+    <form action="" class="form">
+        <div class="login">
+            <h2 class="h2">login</h2>
+        </div>
+        <div class="user">
+            <label for="user name">user name:</label>
+            <input type="text" value="" placeholder="enter your user name"
+                style="background-color: rgb(110, 149, 222,0.2); border-radius: 0.5rem;">
+
+        </div><br>
+        <div class="pass">
+            <label for="password">password:</label>
+            <input type="password" placeholder="enter your password" style="background-color: rgb(110, 149, 222,0.2); border-radius: 0.5rem;">
+        </div><br>
+        <div class="email">
+            <label for="email">e-maail:</label>
+            <input type="email" name="" id="" placeholder="enter your email" style="background-color: rgb(110, 149, 222,0.2); border-radius: 0.5rem;">
+        </div>
+        <div class="gender">
+            <label for="gender">gender:</label><br>
+            <label for="male">male:</label>
+            <input type="radio" name="gender">
+            <label for="gendre">female:</label>
+            <input type="radio" name="gender">
+        </div>
+        <div class="age">
+            <label for="age">age:</label>
+            <input type="number" min="0" max="100" placeholder="select" style="background-color: rgb(110, 149, 222,0.2); border-radius: 0.5rem;">
+        </div>
+        <div class="check">
+            <label for="checkbox" >check:</label>
+            <input type="checkbox" >
+        </div>
+        <div>
+            <button type="submit" class="btn">Submit</button><br>
+        </div>
+     
+    </form>
+    <footer class="footer">
+        <h2 class="fh2">@sharukhan maniyar copy rights</h2>
+    </footer>
+</body>
+
+</html>
